@@ -16,4 +16,4 @@ EXPOSE 6379
 ENV NAME World
 
 # Run Testing.py when the container launches
-CMD ["python", "Testing.py"]
+CMD ["python", "app.py"]
