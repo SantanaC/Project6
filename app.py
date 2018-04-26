@@ -35,7 +35,7 @@ def datest():
     }
     
     
-    ip = "35.190.145.31"
+    ip = "35.190.145.31:8080"
     print(ip)
     if ip==None:
         print("Error: There is no URL specified. Please set the API_URL environment variable and try again.")
